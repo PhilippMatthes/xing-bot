@@ -1,8 +1,8 @@
 class Config:
 
-    delay = 20
+    delay = 600
 
-    headless_is_available = False
+    headless_is_available = True
 
     start_url = "https://www.xing.com/"
     logged_in_url = "https://www.xing.com/app/startpage"

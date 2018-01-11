@@ -164,7 +164,6 @@ class Driver(object):
         except Exception as e:
             self.exception_routine(browser, e)
 
-
     def exception_routine(self, browser, exception):
         browser.save_screenshot('error.png')
         Log.send_image('error.png', str(exception))
