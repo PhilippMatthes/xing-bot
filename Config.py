@@ -1,6 +1,6 @@
 class Config:
 
-    delay = 600
+    delay = 20
 
     headless_is_available = True
 
@@ -30,5 +30,5 @@ class Config:
     load_delay = 5
     login_delay = 10
     exception_delay = 5
-    request_delay = 5
-    unrequest_delay = 5
+    request_delay = 1000
+    unrequest_delay = 1000
